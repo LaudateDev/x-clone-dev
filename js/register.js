@@ -5,7 +5,7 @@
 //ADRESSE DE L'API SELON ENVIRONNEMENT
 const BASE_URL = location.hostname.includes("localhost")
   ? "http://localhost:3000"
-  : "https://x-clone-api.onrender.com";
+  : "https://x-clone-api-3unv.onrender.com";
 
 const NEXT_STEP_URL = "register-password.html"; // Page suivante après la 1ère étape
 
@@ -383,3 +383,4 @@ document.addEventListener("DOMContentLoaded", function () {
     validatePasswords(firstPassword, secondPassword, errorPassword, submitBtn);
   }
 });
+
