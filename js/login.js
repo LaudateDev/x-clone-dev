@@ -1,7 +1,7 @@
 // Définition de l'URL de base selon l'environnement
 const BASE_URL = location.hostname.includes("localhost")
   ? "http://localhost:3000/"
-  : "https://x-clone-api-3unv.onrender.com";
+  : "https://x-clone-api-3unv.onrender.com/";
 
 
 // Détermine le type d'identifiant (email, téléphone, pseudo)
@@ -152,4 +152,5 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
 
