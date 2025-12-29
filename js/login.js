@@ -123,7 +123,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
       try {
-        const res = await fetch(BASE_URL + "users/" + loginData.userId);
+        const res = await fetch(BASE_URL + "/users/" + loginData.userId);
         if (!res.ok) throw new Error("Utilisateur introuvable");
         const user = await res.json();
 
@@ -150,6 +150,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
 
 
 
