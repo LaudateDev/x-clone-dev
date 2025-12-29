@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>X. C'est ce qu'il se passe / X</title>
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../assets/ico/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../assets/ico/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../assets/ico/favicon-16x16.png"
+    />
+    <link rel="manifest" href="../assets/ico/site.webmanifest" />
+  </head>
+  <body>
+    <script>
+      // Vérifier si l'utilisateur est connecté
+      const user = localStorage.getItem("user");
+
+      // Si connecté → redirection vers index.html
+      if (user) {
+        window.location.href = "/pages/index.html";
+      }
+    </script>
+    <main class="welcome-container">
+      <div class="welcome-left">
+        <img src="../assets/img/x.png" alt="logo X" class="x" />
+      </div>
+
+      <section class="welcome-right">
+        <div>
+          <h1 class="welcome-title">Ça se passe<br />maintenant</h1>
+          <p class="welcome-subtitle">Inscrivez-vous.</p>
+        </div>
+        <div class="subscribe">
+          <button
+            onclick="window.location.href='#'"
+            class="btn-provider btn-google"
+          >
+            <img src="../assets/img/google.png" alt="logo Google" /> S'inscrire
+            avec Google
+          </button>
+
+          <button
+            onclick="window.location.href='#'"
+            class="btn-provider btn-apple"
+          >
+            <img src="../assets/img/apple.png" alt="logo Apple" /> S'inscrire
+            avec Apple
+          </button>
+        </div>
+
+        <div class="separator">
+          <span> OU </span>
+        </div>
+
+        <button
+          onclick="window.location.href='register.html'"
+          class="btn-primary"
+        >
+          Créer un compte
+        </button>
+
+        <p class="legal-text">
+          En vous inscrivant, vous acceptez les
+          <a href="#">Conditions d'utilisation</a> et la
+          <a href="#">Politique de confidentialité</a>, notamment
+          <a href="#">l'Utilisation des cookies</a>.
+        </p>
+
+        <div class="login">
+          <p class="login-link">Vous avez déjà un compte ?</p>
+          <button
+            onclick="window.location.href='login.html'"
+            class="btn-provider btn-inscrire"
+          >
+            Se connecter
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="welcome-footer">
+      <nav class="footer-links">
+        <a href="#">À propos</a>
+        <a href="#">Téléchargez l'application X</a>
+        <a href="#">Grok</a>
+        <a href="#">Centre d'assistance</a>
+        <a href="#">Conditions d’utilisation</a>
+        <a href="#">Politique de Confidentialité</a>
+        <a href="#">Politique relative aux cookies</a>
+        <a href="#">Accessibilité</a>
+        <a href="#">Informations sur les publicités</a>
+        <a href="#">Blog</a>
+        <a href="#">Carrières</a>
+        <a href="#">Ressources de la marque</a>
+        <a href="#">Publicité</a>
+        <a href="#">Marketing</a>
+        <a href="#">X pour les professionnels</a>
+        <a href="#">Développeurs</a>
+        <a href="#">Répertoire</a>
+        <a href="#">Paramètres</a>
+      </nav>
+
+      <p class="footer-Lcd">© 2025 X Corp.</p>
+    </footer>
+  </body>
+</html>

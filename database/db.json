@@ -1,0 +1,136 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "username": "johndoe",
+      "email": "john.doe@example.com",
+      "password": "newpassword123",
+      "phone": "+243 111 222 333",
+      "profilePicture": "https://example.com/johndoe.jpg",
+      "bio": "Passionate about coding and open source.",
+      "location": "Goma, DRC",
+      "website": "https://johndoe.com",
+      "createdAt": "2023-09-15T08:30:00Z",
+      "followers": 200,
+      "following": 180
+    },
+    {
+      "id": "2",
+      "name": "Alice Doe",
+      "username": "alicedoe",
+      "email": "alice@example.com",
+      "password": "abcdef",
+      "phone": "+243 987 654 321",
+      "profilePicture": "https://example.com/alice.jpg",
+      "bio": "Designer and artist.",
+      "location": "Lubumbashi, DRC",
+      "website": "https://alicedoe.com",
+      "createdAt": "2023-11-01T09:00:00Z",
+      "followers": 80,
+      "following": 60
+    },
+    {
+      "id": "8d54",
+      "name": "Laudate Dev",
+      "username": "laudate.dev",
+      "email": "laudate.dev@gmail.com",
+      "phone": "0810959755",
+      "password": "111111",
+      "createdAt": "2025-12-10T01:40:36.381Z",
+      "followers": 0,
+      "following": 0
+    },
+    {
+      "id": "9872",
+      "name": "Beni Tasisu",
+      "username": "ben.tasisu",
+      "email": "bentasisu@gmail.com",
+      "phone": null,
+      "password": "123456",
+      "createdAt": "2025-12-10T16:34:05.873Z",
+      "followers": 0,
+      "following": 0
+    },
+    {
+      "id": "12bd",
+      "name": "Sage Kibedi",
+      "username": "sage.kibedi",
+      "email": "sage.kibedi@gmail.com",
+      "phone": "1234567890",
+      "password": "AZERTY",
+      "createdAt": "2025-12-10T16:49:11.716Z",
+      "followers": 0,
+      "following": 0
+    },
+    {
+      "id": "0a88",
+      "name": "Cedrick Kankolongo",
+      "username": "cedrick.kankolongo",
+      "email": "cedrick.kankolongo@gmail.com",
+      "phone": "0894927495",
+      "password": "QSDFGH",
+      "createdAt": "2025-12-10T16:59:21.756Z",
+      "followers": 0,
+      "following": 0
+    },
+    {
+      "id": "bcda",
+      "name": "Jonathan Asana",
+      "username": "jonathan.asana",
+      "email": "jonathan.asana@gmail.com",
+      "phone": "0987639201",
+      "password": "WXCVBN?",
+      "createdAt": "2025-12-18T18:50:45.617Z",
+      "followers": 0,
+      "following": 0
+    }
+  ],
+  "tweets": [
+    {
+      "id": "1",
+      "userId": 1,
+      "content": "Salut tout le monde! Voici mon premier tweet avec des médias.",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://example.com/image1.jpg"
+        },
+        {
+          "type": "video",
+          "url": "https://example.com/video1.mp4"
+        }
+      ],
+      "likes": 10,
+      "retweets": 5,
+      "replies": [3],
+      "createdAt": "2023-10-01T12:00:00Z"
+    },
+    {
+      "id": "2",
+      "userId": 1,
+      "content": "Vive les léopards de la RD Congo !",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://example.com/image2.jpg"
+        }
+      ],
+      "likes": 20,
+      "retweets": 10,
+      "replies": [],
+      "createdAt": "2023-10-02T14:30:00Z"
+    },
+    {
+      "id": "3",
+      "userId": 2,
+      "content": "@christianmwanya Welcome to Twitter !",
+      "media": [],
+      "likes": 5,
+      "retweets": 1,
+      "replies": [],
+      "createdAt": "2023-10-01T13:00:00Z",
+      "replyTo": 1
+    }
+  ]
+}

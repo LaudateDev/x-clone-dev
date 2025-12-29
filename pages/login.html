@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Se Connecter à X / X</title>
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="stylesheet" href="../assets/css/login.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../assets/ico/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../assets/ico/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../assets/ico/favicon-16x16.png"
+    />
+    <link rel="manifest" href="../assets/ico/site.webmanifest" />
+  </head>
+  <body>
+    <main class="login-container">
+      <div class="logo-head">
+        <img
+          src="../assets/ico/favicon-32x32.png"
+          alt="logo X"
+          class="x-logo"
+        />
+      </div>
+
+      <h1>Connectez-vous à X</h1>
+      <section>
+        <form id="login-form">
+          <div class="subscribe">
+            <button
+              onclick="window.location.href='#'"
+              class="btn-provider btn-google"
+            >
+              <img src="../assets/img/google.png" alt="logo Google" />
+              S'inscrire avec Google
+            </button>
+
+            <button
+              onclick="window.location.href='#'"
+              class="btn-provider btn-apple"
+            >
+              <img src="../assets/img/apple.png" alt="logo Apple" /> S'inscrire
+              avec Apple
+            </button>
+          </div>
+
+          <div class="separator">
+            <span> OU </span>
+          </div>
+
+          <input
+            type="text"
+            placeholder="Téléphone, adresse email ou nom d'utilisateur"
+            required
+            id="login-identifier"
+          />
+          <button type="button" id="login-btn" class="btn-login" disabled>
+            Suivant
+          </button>
+        </form>
+      </section>
+      <button
+        onclick="window.location.href='#'"
+        class="btn-provider btn-inscrire"
+      >
+        Mot de passe oublié ?
+      </button>
+      <div>
+        <p>
+          Vous n'avez pas de compte ? <a href="register.html">Inscrivez-vous</a>
+        </p>
+      </div>
+    </main>
+
+    <footer class="welcome-footer">
+      <nav class="footer-links">
+        <a href="#">À propos</a>
+        <a href="#">Téléchargez l'application X</a>
+        <a href="#">Grok</a>
+        <a href="#">Centre d'assistance</a>
+        <a href="#">Conditions d’utilisation</a>
+        <a href="#">Politique de Confidentialité</a>
+        <a href="#">Politique relative aux cookies</a>
+        <a href="#">Accessibilité</a>
+        <a href="#">Informations sur les publicités</a>
+        <a href="#">Blog</a>
+        <a href="#">Carrières</a>
+        <a href="#">Ressources de la marque</a>
+        <a href="#">Publicité</a>
+        <a href="#">Marketing</a>
+        <a href="#">X pour les professionnels</a>
+        <a href="#">Développeurs</a>
+        <a href="#">Répertoire</a>
+        <a href="#">Paramètres</a>
+      </nav>
+
+      <p class="footer-Lcd">© 2025 X Corp.</p>
+    </footer>
+    <script src="../js/login.js" defer></script>
+  </body>
+</html>

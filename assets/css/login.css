@@ -1,0 +1,55 @@
+/*PAGE LOGIN*/
+.logo-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+
+  padding: 0.8rem;
+  border: 1px solid #333639;
+  border-radius: 0.3rem;
+  background-color: black;
+  color: #ffffff;
+}
+input:focus {
+  outline: none;
+  border-color: #1d9bf0;
+}
+
+.btn-login,
+.submit-btn {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+.btn-login:hover,
+.submit-btn:hover {
+  background: #f1f1f1;
+  color: #000000;
+}
+.error-msg {
+  color: #ff4d4f;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.mdp {
+  font-size: 0.85rem;
+}
